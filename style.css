@@ -43,7 +43,7 @@ body {
 
 .dashboard__profile {
     padding: 30px;
-    background: var(--violet);
+    background: #5746EA;
     border-radius: 15px;
     min-height: calc(100% - 160px);
 }
