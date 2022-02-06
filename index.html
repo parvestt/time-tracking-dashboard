@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="dashboard">
+        <div class="dashboard__sidebar">
+          <div class="dashboard__profile">
+            <img src="images/image-jeremy.png" alt="Jermey" class="dashboard__img">
+            <div class="dashboard__sideContent">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
+          </div>
+          <div class="dashboard__tabs">
+            <button data-tab="daily" class="dashboard__tab">Daily</button>
+            <button data-tab="weekly" class="dashboard__tab active">Weekly</button>
+            <button data-tab="monthly" class="dashboard__tab">Monthly</button>
+          </div>
+        </div>
+        <div class="dashboard__content">
+          <div class="dashboard__card">
+            <div class="dashboard__report">
+              <div class="dashboard__report--head">
+                <h2>Work</h2>
+                <button aria-label="Options"><span></span><span></span><span></span></button>
+              </div>
+              <div class="dashboard__report--body">
+                <h3>32hrs</h3>
+              </div>
+              <div class="dashboard__report--footer">
+                <p>Last Week - 5hrs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
